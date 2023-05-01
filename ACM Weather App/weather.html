@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+
+<script src="weather.js"></script>
+
+
+<br>
+<!-- Master Division -->
+<div class = 'main'>
+    <!-- Input Box -->
+    <div class = 'city_name'>
+        <input id="inp" type = 'text' placeholder="City Name">
+        <button onclick="getweather()"> Click</button>
+    </div>
+
+    <br>
+    <br>
+    <div class = city_details>
+        <h3 class='city_title'></h3>
+        <h5 class="'time"></h5>
+    </div>
+    <div class = 'parent'> <!--Parent Open-->
+        <div class="child_1"><!--Child 1 Open-->
+            <img src = "Images/cloudy.png" align = left height='200' width="200px">
+        </div><!--Child 1 Close-->
+        <div class = 'child_2'><!--Child 2 Open-->
+                <p><b>Temperature:</b><label class = 'temp'></label></p>
+                <p><b>Humidity:</b><label class = 'humi'></label></p>
+                <p><b>Pressure:</b><label class = 'pres'></label></p>
+                <p><b>Wind:</b><label class = 'wind'></label></p>
+        </div><!--Child 2 close-->
+    </div><!--Parent Close-->
+</div>
+
+</body>
+</html>
