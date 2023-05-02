@@ -1,0 +1,12 @@
+Api Key:
+47b4ab6d78d620719c38f13bc2448dc0
+
+Current Weather API:
+https://api.openweathermap.org/data/2.5/weather?q=thane&appid=47b4ab6d78d620719c38f13bc2448dc0&units=metric
+
+
+Forecast Data API:
+https://api.openweathermap.org/data/2.5/forecast?lat=19.1943294&lon=72.9701779&appid=47b4ab6d78d620719c38f13bc2448dc0&units=metric
+
+Geoencoding API:
+https://api.openweathermap.org/geo/1.0/direct?q=Thane&limit=1&appid=47b4ab6d78d620719c38f13bc2448dc0
