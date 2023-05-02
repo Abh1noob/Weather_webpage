@@ -1,0 +1,142 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+        /* color: aliceblue; */
+}
+
+table{
+    border-collapse: collapse;
+    /* border: 1px solid red; */
+    background-color:rgb(240, 255, 240,0.3);
+    border-radius: 20px;
+}
+
+
+body{
+    background-image: url('Images/bg_img.jpeg');
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-position: 10% 10%;
+    
+}
+.main_box{
+    border: 0.1px solid black;
+    position: absolute;
+    /* top:50%;
+    left: 20%;
+    transform: translate(-50%, -50%); */
+    padding: 20px;
+    text-shadow: 10px;
+    width: 400px;
+}
+
+
+
+#inp{
+    /* margin-left: 5px; */
+    height: 30px;
+    width: 300px;
+}
+
+#magnify{
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid ;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.search{
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.search input{
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+td{
+    vertical-align: top;
+}
+
+.data{
+    background-image: url(Images/pill_updated.png);
+    background-position: 3px;
+    background-repeat: no-repeat;
+}
+.big_daddy{
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border: 1px solid white;
+    width: 800px;
+    margin: 15px;
+    padding: 25px;
+}
+
+.foreweather{
+    /* border: 1px solid black; */
+    /* border-radius: 20px; */
+    margin-left: 50px;
+}
+
+#fore1{
+    height: 100px;
+    width: 100px;
+}
+
+#fore2{
+    height: 100px;
+    width: 100px;
+}
+
+#fore3{
+    height: 100px;
+    width: 100px;
+}
+
+#fore4{
+    height: 100px;
+    width: 100px;
+}
+
+#fore5{
+    height: 100px;
+    width: 100px;
+}
+
+.date1{
+    text-align: center;
+    padding-top: 10px;
+}
+.date2{
+    text-align: center;
+    padding-top: 10px;
+}
+.date3{
+    text-align: center;
+    padding-top: 10px;
+}
+.date4{
+    text-align: center;
+    padding-top: 10px;
+}
+.date5{
+    text-align: center;
+    padding-top: 10px;
+}
+
+

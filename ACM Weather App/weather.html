@@ -5,40 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
-    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="weather_new.css">
 </head>
 
-<body>
+<body onload="default_data('Vellore')">
+<script src="weather.js"></script>    
+<div class = 'big_daddy'>
+    <!--Left Box Start-->
+        <div class = 'main box'>
+            <div class = 'search'>
+                <input type = 'text' placeholder="City Name" id = 'inp'>
+                <input onclick="getweather()" type="image" src= 'Images/search_new.png' id ='magnify' >
+            </div>
+            <h1 class='city_name'></h1>
+            <img id = "focal_img">
+            <p><b>Temperature: </b><label class = 'temp'></label></p>
+            <p><b>Humidity: </b><label class = 'humi'></label></p>
+            <p><b>Pressure: </b><label class = 'pres'></label></p>
+            <p><b>Wind Speed: </b><label class = 'wind'></label></p>
+        </div>
+    <!--Left Box End-->
+    <!--Right Box Start-->
+        <div class = 'foreweather'>
+            <table style="color: black;">
 
-<script src="weather.js"></script>
+                <tr>
+                    <td colspan="2" class = date1>Hello</td>
+                </tr>
+                
+                <!--Row1-->
+                <tr  class = 'data'>
+                    <td>
+                        <img src = 'Images/rain.png' id = 'fore1'>
+                    </td>
+                    <td style="width: 350px;">
+                        <br>Max Temp: <label class = 'max_temp1'></label>
+                        <br>Min Temp: <label class = 'min_temp1'></label>
+                        <br>Humidity: <label class = 'humi1'></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class = date2>Hello</td>
+                </tr>
+              
 
+                <!--Row2-->
+                <tr  class = 'data'>
+                    <td>
+                        <img src = 'Images/rain.png' id = 'fore2'>
+                    </td>
+                    <td>
+                        <br>Max Temp: <label class = 'max_temp2'></label>
+                        <br>Min Temp: <label class = 'min_temp2'></label>
+                        <br>Humidity: <label class = 'humi2'></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class = date3>Hello</td>
+                </tr>
 
-<br>
-<!-- Master Division -->
-<div class = 'main'>
-    <!-- Input Box -->
-    <div class = 'city_name'>
-        <input id="inp" type = 'text' placeholder="City Name">
-        <button onclick="getweather()"> Click</button>
-    </div>
+                <!--Row3-->
+                <tr  class = 'data'>
+                    <td>
+                        <img src = 'Images/rain.png' id = 'fore3'>
+                    </td>
+                    <td>
+                        <br>Max Temp: <label class = 'max_temp3'></label>
+                        <br>Min Temp: <label class = 'min_temp3'></label>
+                        <br>Humidity: <label class = 'humi3'></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class = date4>Hello</td>
+                </tr>
 
-    <br>
-    <br>
-    <div class = city_details>
-        <h3 class='city_title'></h3>
-        <h5 class="'time"></h5>
-    </div>
-    <div class = 'parent'> <!--Parent Open-->
-        <div class="child_1"><!--Child 1 Open-->
-            <img src = "Images/cloudy.png" align = left height='200' width="200px">
-        </div><!--Child 1 Close-->
-        <div class = 'child_2'><!--Child 2 Open-->
-                <p><b>Temperature:</b><label class = 'temp'></label></p>
-                <p><b>Humidity:</b><label class = 'humi'></label></p>
-                <p><b>Pressure:</b><label class = 'pres'></label></p>
-                <p><b>Wind:</b><label class = 'wind'></label></p>
-        </div><!--Child 2 close-->
-    </div><!--Parent Close-->
+                <!--Row4-->
+                <tr  class = 'data'>
+                    <td>
+                        <img src = 'Images/rain.png' id = 'fore4'>
+                    </td>
+                    <td>
+                        <br>Max Temp: <label class = 'max_temp4'></label>
+                        <br>Min Temp: <label class = 'min_temp4'></label>
+                        <br>Humidity: <label class = 'humi4'></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class = date5>Hello</td>
+                </tr>
+
+                <!--Row5-->
+                <tr  class = 'data'>
+                    <td>
+                        <img src = 'Images/rain.png' id = 'fore5'>
+                    </td>
+                    <td>
+                        <br>Max Temp: <label class = 'max_temp5'></label>
+                        <br>Min Temp: <label class = 'min_temp5'></label>
+                        <br>Humidity: <label class = 'humi5'></label>
+                    </td>
+                </tr>
+            </table>
+        </div>
 </div>
 
 </body>
